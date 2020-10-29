@@ -2,14 +2,14 @@
 <html lang="${lang.lang}">
 <head>
     <meta charset="UTF-8">
-    <title>FontEditor</title>
-    <link rel="shortcut icon" href="dep/favicon.ico" type="image/x-icon">
+    <title>字体图标库-FE</title>
+    <link rel="shortcut icon" href="dep/logo.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="./dep/bootstrap/css/bootstrap.min.css">
 </head>
 <body>
 
     <section class="navbar" role="navigation">
-        <div class="logo"></div>
+        <div class="logo">字体图标库</div>
         <div class="action-groups btn-groups">
 
             <button data-action="add-new" type="button" class="btn btn-flat btn-new btn-sm"><i class="ico ico-left i-add"></i>${lang.newglyph}</button>

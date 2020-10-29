@@ -71,13 +71,21 @@ module.exports = {
     ],
     module: {
         rules: [
+            // {
+            //     test: /\/(index|empty|editor)\.tpl$/,
+            //     loader: 'index-loader'
+            // },
+            // {
+            //     test: /template\/(.+?)\.tpl$/,
+            //     loader: 'tpl-loader'
+            // },
             {
-                test: /\/(index|empty|editor)\.tpl$/,
-                loader: 'index-loader'
+                test: /\\(index|empty|editor)\.tpl$/,
+                loader: "index-loader",
             },
             {
-                test: /template\/(.+?)\.tpl$/,
-                loader: 'tpl-loader'
+                test: /template\\(.+?)\.tpl$/,
+                loader: "tpl-loader",
             },
             {
                 test: /\.lesstpl$/,
